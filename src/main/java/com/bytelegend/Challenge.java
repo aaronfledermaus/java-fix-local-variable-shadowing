@@ -4,8 +4,10 @@ public class Challenge {
     public static int sum = 0;
 
     public static void main(String[] args) {
-        System.out.println("addAverageOf(1,3): " + addAverageOf(1,3));
+          System.out.println("addAverageOf(1,3): " + addAverageOf(1,3));
+		sum=addAverageOf(1,3);
         System.out.println("addAverageOf(2,6): " + addAverageOf(2,6));
+				sum=addAverageOf(2,6);
         System.out.println("addAverageOf(3,5): " + addAverageOf(3,5));
     }
 
