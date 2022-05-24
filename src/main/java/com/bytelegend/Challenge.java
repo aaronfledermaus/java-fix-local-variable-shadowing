@@ -14,7 +14,7 @@ public class Challenge {
 
     public static void addAverageOf(int a, int b) {
         int sum = 0;
-        int sum = a + b;
+        sum = a + b;
         int average = sum / 2;
         sum = sum + average;
     }
