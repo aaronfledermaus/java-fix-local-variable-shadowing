@@ -16,6 +16,6 @@ public class Challenge {
          
          sum = a + b;
          int average = sum / 2;
-         sum += average;
+         sum = average;
     }
 }
