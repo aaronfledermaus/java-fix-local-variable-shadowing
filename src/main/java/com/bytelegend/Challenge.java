@@ -1,9 +1,9 @@
 package com.bytelegend;
 
 public class Challenge {
-    
+    public static int sum = 0;
     public static void main(String[] args) {
-        public static int sum = 0;
+        
 
         addAverageOf(1, 3);
         System.out.println("addAverageOf(1,3): " + sum);
