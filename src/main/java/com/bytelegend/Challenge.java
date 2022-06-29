@@ -1,9 +1,10 @@
 package com.bytelegend;
 
 public class Challenge {
-    public static int sum = 0;
-
+    
     public static void main(String[] args) {
+        public static int sum = 0;
+
         addAverageOf(1, 3);
         System.out.println("addAverageOf(1,3): " + sum);
         addAverageOf(2, 6);
@@ -13,8 +14,7 @@ public class Challenge {
     }
 
     public static void addAverageOf(int a, int b) {
-        int sum = a + b;
-        int average = sum / 2;
+        int average = (a+b) / 2;
         sum = sum + average;
     }
 }
