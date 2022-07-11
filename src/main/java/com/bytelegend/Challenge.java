@@ -2,7 +2,6 @@ package com.bytelegend;
 
 public class Challenge {
     public static void main(String[] args) {
-        int sum;
         addAverageOf(1, 3);
         System.out.println("addAverageOf(1,3): " + sum);
         addAverageOf(2, 6);
