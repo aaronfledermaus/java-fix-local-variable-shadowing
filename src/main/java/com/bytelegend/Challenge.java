@@ -13,8 +13,8 @@ public class Challenge {
     }
 
     public static void addAverageOf(int a, int b) {
-        sum = a + b;
-        int average = sum / 2;
-        sum = sum - average;
+        int c = a + b;
+        int average = c / 2;
+        sum = sum + average;
     }
 }
