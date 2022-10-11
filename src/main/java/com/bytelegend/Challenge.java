@@ -12,8 +12,8 @@ public class Challenge {
         System.out.println("addAverageOf(3,5): " + sum);
     }
 
-    public static int addAverageOf(int a, int b) {
-        int sum = a + b;
+    public static void addAverageOf(int a, int b) {
+        sum = a + b;
         int average = sum / 2;
         sum = sum + average;
     }
