@@ -2,7 +2,7 @@ package com.bytelegend;
 
 public class Challenge {
     public static int sum = 0;
-    private static int s;
+    public static int s;
 
     public static void main(String[] args) {
         addAverageOf(1, 3);
