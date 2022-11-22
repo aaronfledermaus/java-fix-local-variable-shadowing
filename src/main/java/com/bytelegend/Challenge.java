@@ -2,7 +2,7 @@ package com.bytelegend;
 
 public class Challenge {
 
-    public static int sum;
+    public int sum;
 
     public Challenge() {
         this.sum = 0;
