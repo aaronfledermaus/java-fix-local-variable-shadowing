@@ -1,7 +1,12 @@
 package com.bytelegend;
 
 public class Challenge {
-    public static int sum = 0;
+
+    public static int sum;
+
+    public Challenge() {
+        this.sum = 0;
+    }
 
     public static void main(String[] args) {
         addAverageOf(1, 3);
